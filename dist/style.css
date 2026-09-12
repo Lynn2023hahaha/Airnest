@@ -14,3 +14,5 @@
 .hero-panorama{filter:brightness(1.25) saturate(.93)}.hero:after{background:linear-gradient(0deg,rgba(10,29,20,.17),transparent 19%)}.service-grid article{padding-top:30px}.virtual-note{background:#17352977;padding:2px 6px;border-radius:3px}
 /* Calm, open brand typography */
 .brand h1,.brand h1 span,html[lang=zh-CN] .brand h1{font-family:'DM Sans',Arial,sans-serif;font-weight:500;text-transform:none;letter-spacing:-.6px;font-size:clamp(27px,2.65vw,41px);line-height:1.16}.brand h1 span{font-weight:500}@media(max-width:900px){.brand h1,.brand h1 span,html[lang=zh-CN] .brand h1{font-size:28px;letter-spacing:-.4px}}@media(max-width:600px){.brand h1,.brand h1 span,html[lang=zh-CN] .brand h1{font-size:20px;letter-spacing:-.25px;line-height:1.18}}
+/* Lift darker areas while retaining window detail */
+.hero-panorama{filter:brightness(1.48) contrast(.88) saturate(.9)}.hero:after{background:none}.hero-photo{filter:brightness(1.15)}
