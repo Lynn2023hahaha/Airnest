@@ -36,3 +36,13 @@
 #photography{scroll-margin-top:110px}
 @media(max-width:700px){.service-dock{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:14px}.service-dock a{font-size:14px;padding:16px 10px;border:0}.service-dock a:nth-child(odd){border-right:1px solid #e1e5df}.service-dock a:nth-child(-n+2){border-bottom:1px solid #e1e5df}}
 #end-of-lease-cleaning{scroll-margin-top:110px}
+/* Clear hierarchy for the bilingual service introduction. */
+.services .section-heading{display:block;margin-bottom:48px}
+.services .section-heading>.eyebrow{margin-bottom:22px}
+.services .section-heading>h2{max-width:100%;font-size:clamp(38px,4.4vw,64px);line-height:1.2;letter-spacing:-1.2px;margin:0 0 28px;text-wrap:balance}
+html[lang=zh-CN] .services .section-heading>h2{font-family:'Microsoft YaHei','PingFang SC',Arial,sans-serif;font-size:clamp(30px,3.6vw,50px);font-weight:500;line-height:1.45;letter-spacing:0;word-break:keep-all;overflow-wrap:normal}
+.services .section-heading .service-intro{margin:0;padding:0;border:0;max-width:1020px}
+.services .service-intro .service-promise{font-size:clamp(21px,2.2vw,30px);font-weight:500;line-height:1.6;letter-spacing:0;max-width:1000px;margin-bottom:18px;text-wrap:pretty}
+html[lang=zh-CN] .services .service-intro .service-promise{font-family:'Microsoft YaHei','PingFang SC',Arial,sans-serif;font-size:clamp(20px,2vw,28px);font-weight:400;line-height:1.75}
+.services .service-intro .service-scope{font-size:14px;line-height:1.8;margin:0;max-width:850px}
+@media(max-width:600px){.services .section-heading{margin-bottom:32px}.services .section-heading>h2{margin-bottom:20px}html[lang=zh-CN] .services .section-heading>h2{font-size:30px;word-break:normal;text-wrap:balance}.services .service-intro .service-scope{font-size:13px}}
