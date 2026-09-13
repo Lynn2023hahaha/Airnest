@@ -35,3 +35,4 @@
 .service-dock a{min-width:0}
 #photography{scroll-margin-top:110px}
 @media(max-width:700px){.service-dock{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:14px}.service-dock a{font-size:14px;padding:16px 10px;border:0}.service-dock a:nth-child(odd){border-right:1px solid #e1e5df}.service-dock a:nth-child(-n+2){border-bottom:1px solid #e1e5df}}
+#end-of-lease-cleaning{scroll-margin-top:110px}
