@@ -30,3 +30,8 @@
 .service-intro .service-promise{font-family:'Manrope',Arial,sans-serif;font-size:clamp(25px,3vw,40px);font-weight:600;line-height:1.4;letter-spacing:-.7px;color:#254538;margin:0 0 20px;max-width:1080px}
 .service-intro .service-scope{font-size:14px;line-height:1.7;color:#647063;max-width:760px;margin:0}
 @media(max-width:600px){.section-heading .service-intro{margin-top:12px;padding-top:22px}.service-intro .service-promise{font-size:25px;letter-spacing:-.4px}.service-intro .service-scope{font-size:13px}}
+/* Four service entry points, with a compact two-by-two layout on phones. */
+.service-dock{grid-template-columns:repeat(4,minmax(0,1fr))}
+.service-dock a{min-width:0}
+#photography{scroll-margin-top:110px}
+@media(max-width:700px){.service-dock{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:14px}.service-dock a{font-size:14px;padding:16px 10px;border:0}.service-dock a:nth-child(odd){border-right:1px solid #e1e5df}.service-dock a:nth-child(-n+2){border-bottom:1px solid #e1e5df}}
