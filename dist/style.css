@@ -46,3 +46,4 @@ html[lang=zh-CN] .services .section-heading>h2{font-family:'Microsoft YaHei','Pi
 html[lang=zh-CN] .services .service-intro .service-promise{font-family:'Microsoft YaHei','PingFang SC',Arial,sans-serif;font-size:clamp(20px,2vw,28px);font-weight:400;line-height:1.75}
 .services .service-intro .service-scope{font-size:14px;line-height:1.8;margin:0;max-width:850px}
 @media(max-width:600px){.services .section-heading{margin-bottom:32px}.services .section-heading>h2{margin-bottom:20px}html[lang=zh-CN] .services .section-heading>h2{font-size:30px;word-break:normal;text-wrap:balance}.services .service-intro .service-scope{font-size:13px}}
+.partners p.agent-coordination{font-size:clamp(20px,2vw,27px);line-height:1.6;color:#f4f4e9;margin:0 0 24px;font-weight:500}
